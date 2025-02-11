@@ -36,3 +36,14 @@ nestjs는 controller를 비지니스 로직과 구분 짓고 싶어한다.
 class-validator, class-transformer 대신
 zod 사용해보겠음
 이게 더 간결하다고 생각됨
+
+
+### postgreSQL, drizzle-orm, zod 
+
+- 테이블 생성
+- 테이블 조회
+- 테이블 수정
+- 테이블 삭제
+
+이렇게 예시 만듬 
+내일 좀 정리까지 해놓자 
