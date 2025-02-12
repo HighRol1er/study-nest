@@ -17,8 +17,9 @@ export const books = pgTable('books', {
 });
 
 // Drizzle-Zod schemas
-export const insertMovieSchema = createInsertSchema(movies);
-export const selectMovieSchema = createSelectSchema(movies);
+// Validation 용도인데 지금 이걸 db/schema.ts가 대체하고 있어서 굳이 안써도 될듯 
+// export const insertMovieSchema = createInsertSchema(movies);
+// export const selectMovieSchema = createSelectSchema(movies);
 
-export const insertBookSchema = createInsertSchema(books);
-export const selectBookSchema = createSelectSchema(books); 
+// export const insertBookSchema = createInsertSchema(books);
+// export const selectBookSchema = createSelectSchema(books); 
